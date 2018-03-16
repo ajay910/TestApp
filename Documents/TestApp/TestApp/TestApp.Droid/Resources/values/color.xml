@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <color name="white">#FFFFFF</color>
+  <color name="black">#000000</color>
+  <color name="SplashBackColor">#ffffff</color>
+  
+  <color name="AppBackground">#F0F0ED</color>
+  <color name="MenuBackColor">#D937444B</color>
+  <color name="AppFontColor">#37444B</color>
+  <color name="Blue">#3090C7</color>
+  <color name="Green">#5FAB78</color>
+  <color name="Gray">#D3D3D3</color>
+  <color name="DarkGray">#696969</color>
+  <color name="Purple">#64638A</color>
+  <color name="TextBoxFontColor">#5F6A6F</color>
+  <color name="TextBoxHintColor">#855F6A6F</color>
+</resources>

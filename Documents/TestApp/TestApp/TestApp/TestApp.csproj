@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Utilities\EventManagement\**" />
+    <Compile Remove="Utilities\JsonHelper\**" />
+    <EmbeddedResource Remove="Utilities\EventManagement\**" />
+    <EmbeddedResource Remove="Utilities\JsonHelper\**" />
+    <None Remove="Utilities\EventManagement\**" />
+    <None Remove="Utilities\JsonHelper\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Utilities\AppConstants.cs" />
+    <Compile Remove="Utilities\Common.cs" />
+    <Compile Remove="Utilities\CommonDI.cs" />
+    <Compile Remove="Utilities\DeviceHelper\IDeviceUtility.cs" />
+    <Compile Remove="Utilities\DeviceHelper\IDialogService.cs" />
+    <Compile Remove="Utilities\DeviceHelper\IFileHelper.cs" />
+    <Compile Remove="Utilities\DeviceHelper\ILocationProvider.cs" />
+    <Compile Remove="Utilities\Emun.cs" />
+    <Compile Remove="Utilities\ILog.cs" />
+    <Compile Remove="Utilities\MimeType.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Portable.Ninject" Version="3.3.1" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
+  </ItemGroup>
+
+</Project>

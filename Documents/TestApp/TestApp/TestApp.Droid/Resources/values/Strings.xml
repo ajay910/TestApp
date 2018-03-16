@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Test App</string>
+
+  <!--fonts size-->
+  <string name="SmallSize">@dimen/_12sdp</string>  <!--48-->
+  <string name="RegularSize">@dimen/_13sdp</string>  <!--52-->
+  <string name="MediumSize">@dimen/_14sdp</string>  <!--56/60-->
+  <string name="XMediumSize">@dimen/_15sdp</string>  <!--64-->
+  <string name="LargeSize">@dimen/_16sdp</string>  <!--72-->
+  <string name="XXLargeSize">@dimen/_22sdp</string>  <!--96-->
+</resources>
